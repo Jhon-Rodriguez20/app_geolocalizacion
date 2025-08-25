@@ -1,0 +1,27 @@
+name: app_geolocalizacion
+description: "App de geolocalizacion sencilla."
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_map: ^7.0.1
+  latlong2: ^0.9.0
+  geolocator: ^12.0.0
+  http: ^1.2.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
